@@ -1,0 +1,32 @@
+{
+    "name": "kanel/phpspec-data-provider-extension",
+    "description": "Extension that allows to use data provider in phpspec",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "require" : {
+        "php" : ">=7.0",
+        "phpspec/phpspec": ">=4.0"
+    },
+    "repositories" : [ {
+        "type" : "composer",
+        "url" : "https://packagist.org/"
+    } ],
+    "require-dev" : {
+    },
+    "autoload-dev" : {
+        "psr-4" : {
+            "Kanel\\PhpSpec\\DataProvider\\" : "src/",
+            "Kanel\\PhpSpec\\Test\\" : "test/"
+        }
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Kanel\\PhpSpec\\DataProvider\\" : "src/",
+            "Kanel\\PhpSpec\\Test\\" : "test/"
+        }
+    },
+    "authors" : [ {
+        "name" : "Adil El Kanabi",
+        "email" : "adil.kanabi@gmail.com"
+    } ]
+}

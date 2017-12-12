@@ -1,0 +1,9 @@
+suites:
+    conf_suite:
+        namespace: Kanel\PhpSpec\Test
+        spec_prefix: spec
+        src_path: ./
+        spec_path: ./
+
+extensions:
+    Kanel\PhpSpec\DataProvider\Extension: ~
